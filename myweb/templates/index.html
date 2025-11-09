@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page }}</title>
+    <link rel="stylesheet" href="/static/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400..700&family=Iceberg&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="media/{{ q4.f_img }}">
+
+  <body>
+    <script>
+      screen.orientation.lock('portrait-primary')
+      window.onload = function () {
+        document.getElementById('name_1').style.visibility = 'hidden'
+        document.getElementById('name_2').style.visibility = 'hidden'
+        document.getElementById('name_3').style.visibility = 'hidden'
+        document.getElementById('name_4').style.visibility = 'hidden'
+        document.getElementById('name_5').style.visibility = 'hidden'
+        document.getElementById('name_6').style.visibility = 'hidden'
+        document.getElementById('name_7').style.visibility = 'hidden'
+        document.getElementById('name_8').style.visibility = 'hidden'
+        document.getElementById('name_9').style.visibility = 'hidden'
+        setTimeout(function () {
+          document.getElementById('name_1').style.visibility = 'visible'
+          document.getElementById('name_1').style.color = '#rgba(0, 0, 0, 0)'
+        }, 100)
+        setTimeout(function () {
+          document.getElementById('name_2').style.visibility = 'visible'
+          document.getElementById('name_1').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_2').style.color = 'rgba(0, 0, 0, 0)'
+        }, 200)
+        setTimeout(function () {
+          document.getElementById('name_3').style.visibility = 'visible'
+          document.getElementById('name_1').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_2').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_3').style.color = 'rgba(0, 0, 0, 0)'
+        }, 300)
+        setTimeout(function () {
+          document.getElementById('name_4').style.visibility = 'visible'
+          document.getElementById('name_1').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_2').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_3').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_4').style.color = 'rgba(0, 0, 0, 0)'
+        }, 400)
+        setTimeout(function () {
+          document.getElementById('name_5').style.visibility = 'visible'
+          document.getElementById('name_2').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_3').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_4').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_5').style.color = 'rgba(0, 0, 0, 0)'
+        }, 500)
+        setTimeout(function () {
+          document.getElementById('name_6').style.visibility = 'visible'
+          document.getElementById('name_3').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_4').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_5').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_6').style.color = 'rgba(0, 0, 0, 0)'
+        }, 600)
+        setTimeout(function () {
+          document.getElementById('name_7').style.visibility = 'visible'
+          document.getElementById('name_4').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_5').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_6').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_7').style.color = 'rgba(0, 0, 0, 0)'
+        }, 700)
+        setTimeout(function () {
+          document.getElementById('name_8').style.visibility = 'visible'
+          document.getElementById('name_5').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_6').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_7').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_8').style.color = 'rgba(0, 0, 0, 0)'
+        }, 800)
+        setTimeout(function () {
+          document.getElementById('name_9').style.visibility = 'visible'
+          document.getElementById('name_6').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_7').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_8').style.color = 'rgba(0, 0, 0, 0.33)'
+          document.getElementById('name_9').style.color = 'rgba(0, 0, 0, 0)'
+        }, 900)
+        setTimeout(function () {
+          document.getElementById('name_7').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_8').style.color = 'rgba(0, 0, 0, 0.66)'
+          document.getElementById('name_9').style.color = 'rgba(0, 0, 0, 0.33)'
+        }, 1000)
+        setTimeout(function () {
+          document.getElementById('name_8').style.color = 'rgba(0, 0, 0, 1)'
+          document.getElementById('name_9').style.color = 'rgba(0, 0, 0, 0.66)'
+        }, 1100)
+        setTimeout(function () {
+          document.getElementById('name_9').style.color = 'rgba(0, 0, 0, 1)'
+        }, 1200)
+        document.getElementById('logo_1').style.visibility = 'hidden'
+        document.getElementById('logo_2').style.visibility = 'hidden'
+        document.getElementById('logo_3').style.visibility = 'hidden'
+        document.getElementById('logo_4').style.visibility = 'hidden'
+        document.getElementById('logo_5').style.visibility = 'hidden'
+        document.getElementById('logo_6').style.visibility = 'hidden'
+        document.getElementById('logo_7').style.visibility = 'hidden'
+        document.getElementById('logo_8').style.visibility = 'hidden'
+        setTimeout(function () {
+          document.getElementById('logo_1').style.visibility = 'visible'
+        }, 1400)
+        setTimeout(function () {
+          document.getElementById('logo_2').style.visibility = 'visible'
+        }, 1500)
+        setTimeout(function () {
+          document.getElementById('logo_3').style.visibility = 'visible'
+        }, 1600)
+        setTimeout(function () {
+          document.getElementById('logo_4').style.visibility = 'visible'
+        }, 1700)
+        setTimeout(function () {
+          document.getElementById('logo_5').style.visibility = 'visible'
+        }, 1800)
+        setTimeout(function () {
+          document.getElementById('logo_6').style.visibility = 'visible'
+        }, 1900)
+        setTimeout(function () {
+          document.getElementById('logo_7').style.visibility = 'visible'
+        }, 2000)
+        setTimeout(function () {
+          document.getElementById('logo_8').style.visibility = 'visible'
+        }, 2100)
+        document.getElementById('links_info').style.display = 'none'
+      
+        document.getElementById('logo_1').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_1.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_1').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_2').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_2.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_2').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_3').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_3.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_3').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_4').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_4.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_4').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_5').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_5.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_5').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_6').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_6.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_6').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_7').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_7.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_7').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+        document.getElementById('logo_8').onmouseover = function () {
+          document.getElementById('links_info').style.display = 'flex'
+          document.getElementById('link_info_text').innerHTML = '{{ q2_8.l_name }}'
+          document.getElementById('link_info_text').style.animation = 'info-text-in linear 0.3s '
+        }
+        document.getElementById('logo_8').onmouseout = function () {
+          document.getElementById('links_info').style.display = 'none'
+        }
+      
+        function myFunction(x) {
+          if (x.matches) {
+            var element = document.getElementById('laptop')
+            var comment = document.createComment('This is a commented out HTML code')
+            element.parentNode.replaceChild(comment, element)
+          } else {
+            var element = document.getElementById('mobile')
+            var comment = document.createComment('This is a commented out HTML code')
+            element.parentNode.replaceChild(comment, element)
+          }
+        }
+      
+        var x = window.matchMedia('(max-width: 800px) and (orientation :landscape )')
+      
+        myFunction(x)
+      
+        x.addEventListener('change', function () {
+          myFunction(x)
+          location.reload()
+        })
+      }
+    </script>
+    <div class="page_1" id="laptop">
+      <div class="gap_1"></div>
+      <div class="profile">
+        <div class="profile_box">
+          <div class="profile_round">
+            <div class="profile_round_image" style="background-image: url(media/{{ q1.p_img }});"></div>
+          </div>
+        </div>
+      </div>
+      <div class="gap_2"></div>
+      <div class="name">
+        <div class="name_style">
+          <div id="name_1">H</div>
+          <div id="name_2">i</div>
+          <div id="name_3">l</div>
+          <div id="name_4">&nbsp;</div>
+          <div id="name_5">P</div>
+          <div id="name_6">a</div>
+          <div id="name_7">t</div>
+          <div id="name_8">e</div>
+          <div id="name_9">l</div>
+        </div>
+      </div>
+      <div class="gap_3"></div>
+      <div class="links">
+        <div class="links_anmiation_box" id="links_anmiation_box">
+          <div class="links_anmiation_box-l">
+            <a href="{{ q2_1.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_1">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_1.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="{{ q2_2.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_2">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_2.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="{{ q2_3.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_3">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_3.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="{{ q2_4.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_4">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_4.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="links_anmiation_box-r">
+            <a href="{{ q2_4.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_5">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_5.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="{{ q2_6.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_6">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_6.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="{{ q2_7.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_7">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_7.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="{{ q2_8.l_link }}" target="_blank">
+              <div class="box">
+                <div class="logo" id="logo_8">
+                  <div class="links_round">
+                    <div class="links_logo" style="background-image: url(media/{{ q2_8.l_img }});"></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="gap_4"></div>
+      <div class="links_info" id="links_info">
+        <div class="link_info_text" id="link_info_text"></div>
+      </div>
+    </div>
+    <div id="mobile" class="message">
+      <div class="message_box">
+        <div class="message_animation">
+          <div class="phone"></div>
+        </div>
+        <div class="message_line">Please rotate your device!</div>
+      </div>
+    </div>
+    <div class="page_2">
+      {% for q3 in q3 %}
+        <div class="data_box">
+          <div id="data_box_line-1">{{ q3.d_line_1 }}</div>
+          <div id="data_box_line-2">{{ q3.d_line_2 }}</div>
+          <div id="data_box_line-3">{{ q3.d_line_3 }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
