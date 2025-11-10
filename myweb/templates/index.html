@@ -192,26 +192,7 @@
           document.getElementById('links_info').style.display = 'none'
         }
       
-        function myFunction(x) {
-          if (x.matches) {
-            var element = document.getElementById('laptop')
-            var comment = document.createComment('This is a commented out HTML code')
-            element.parentNode.replaceChild(comment, element)
-          } else {
-            var element = document.getElementById('mobile')
-            var comment = document.createComment('This is a commented out HTML code')
-            element.parentNode.replaceChild(comment, element)
-          }
-        }
-      
-        var x = window.matchMedia('(max-width: 800px) and (orientation :landscape )')
-      
-        myFunction(x)
-      
-        x.addEventListener('change', function () {
-          myFunction(x)
-          location.reload()
-        })
+   
       }
     </script>
     <div class="page_1" id="laptop">
@@ -323,14 +304,7 @@
         <div class="link_info_text" id="link_info_text"></div>
       </div>
     </div>
-    <div id="mobile" class="message">
-      <div class="message_box">
-        <div class="message_animation">
-          <div class="phone"></div>
-        </div>
-        <div class="message_line">Please rotate your device!</div>
-      </div>
-    </div>
+    
     <div class="page_2">
       {% for q3 in q3 %}
         <div class="data_box">
@@ -342,3 +316,4 @@
     </div>
   </body>
 </html>
+
