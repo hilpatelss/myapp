@@ -26,7 +26,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('' , home , name="home"),
     path('Jeu0o74APt5ENwz/', admin.site.urls),
-    re_path(r'^.*$', redirect),
+    re_path(r'^.*$', path_redirect),
 
 ]
 
@@ -35,3 +35,4 @@ if settings.DEBUG:
     
 
 urlpatterns += staticfiles_urlpatterns()
+
