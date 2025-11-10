@@ -1,10 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render , redirect
 from django.contrib import messages
 from django.http import HttpResponse
 from django.contrib.auth.models import User  
 from myweb.models import *
 
 # Create your views here.
+def path_redirect(request):
+    return redirect('home')
+
+
 def home(request):
     try:
         query1 = Profile.objects.get( p_no = 1)
@@ -26,4 +30,5 @@ def home(request):
         context = {'page': 'Hil Patel'}
 
         return render(request , "index.html", context)
+
 
